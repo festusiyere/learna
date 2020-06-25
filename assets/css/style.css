@@ -1748,9 +1748,6 @@ footer {
     margin-top: 0;
     padding: 0;
     text-align: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
   }
   .footer .inner .second.ls ul {
     padding: 0;
