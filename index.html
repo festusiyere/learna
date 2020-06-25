@@ -9,24 +9,46 @@
 </head>
 
 <body>
+
     <div class="wrapper">
         <header>
             <nav class="nav">
                 <div class="logo">
                     <img src="assets/images/logo.png" alt="">
                 </div>
-                <div class="links">
-                    <ul>
-                        <li>
-                            <a href="#" class="navlinks">Explore</a>
-                        </li>
-                        <li>
-                            <a href="#" class="navlinks">Sign in</a>
-                        </li>
-                    </ul>
+                <div class="menus" id="menus">
+                    <div class="close">
+                        <button id="close">
+                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="35" height="35" viewBox="0 0 24 24" stroke-width="1.5" stroke="#333975" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z"/>
+                                <line x1="18" y1="6" x2="6" y2="18" />
+                                <line x1="6" y1="6" x2="18" y2="18" />
+                              </svg>
+                        </button>
+                    </div>    
+                    <div class="links"> 
+                        <ul>
+                            <li>
+                                <a href="#" class="navlinks">Explore</a>
+                            </li>
+                            <li>
+                                <a href="#" class="navlinks">Sign in</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="signup">
+                        <a href="#" class="btn btn-nav">Get Started</a>
+                    </div>    
                 </div>
-                <div class="signup">
-                    <a href="#" class="btn btn-nav">Get Started</a>
+                <div class="toggler">
+                    <button  id="toggler">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-align-justified" width="35" height="35" viewBox="0 0 24 24" stroke-width="1.5" stroke="#f9f3eb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z"/>
+                            <line x1="4" y1="6" x2="20" y2="6" />
+                            <line x1="4" y1="12" x2="20" y2="12" />
+                            <line x1="4" y1="18" x2="20" y2="18" />
+                          </svg>
+                    </button>
                 </div>
             </nav>
         </header>
@@ -66,7 +88,7 @@
         </div>
 
         <div class="down">
-            <button>
+            <button id="down">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-down" width="20"
                     height="20" viewBox="0 0 24 24" stroke-width="2.5" stroke="#F1F1F5" fill="none"
                     stroke-linecap="round" stroke-linejoin="round">
@@ -210,7 +232,7 @@
             </div>
             <div class="box">
                 <div class="box-img">
-                    <img src="assets/images/Rectangle1.png" alt="">
+                    <img src="assets/images/Rectangle2.png" alt="">
                 </div>
                 <div class="box-header">
                     Dynamic Content Type
@@ -223,7 +245,7 @@
             </div>
             <div class="box">
                 <div class="box-img">
-                    <img src="assets/images/Rectangle1.png" alt="">
+                    <img src="assets/images/Rectangle3.png" alt="">
                 </div>
                 <div class="box-header">
                     Dynamic Content Type
@@ -442,7 +464,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="second">
+            <div class="second ls">
                 <ul>
                     <li>Social Media</li>
                     <div class="media">
@@ -488,6 +510,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
