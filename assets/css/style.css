@@ -340,6 +340,7 @@ section.one {
   background: rgba(252, 248, 244, 0.753);
   margin: 0;
   padding: 30px 0;
+  width: 100%;
 }
 
 .one .top-imgs {
@@ -385,7 +386,7 @@ section.one {
 }
 
 .pr .img {
-  left: -150px;
+  right: 80%;
   height: 500px;
   width: 500px;
   position: absolute;
@@ -414,7 +415,7 @@ section.one {
   opacity: 0.07;
   position: absolute;
   top: 20%;
-  right: 25%;
+  right: 15%;
 }
 
 .pr .inner2 {
@@ -426,7 +427,7 @@ section.one {
 }
 
 .pr .inner3 {
-  padding: 40px 0;
+  padding: 30px 0;
 }
 
 .pr .inner3 a {
@@ -451,22 +452,14 @@ section.one {
 }
 
 .two {
-  padding: 40px 0;
+  padding: 40px 0 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 .two .box1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  padding: 4% 0 4% 5%;
   width: 50%;
 }
 
@@ -476,24 +469,12 @@ section.one {
 }
 
 .two .box2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
   width: 50%;
+  padding: 4% 0 4% 8%;
 }
 
 .box2 .heading {
-  font-size: 3.5rem;
+  font-size: 3rem;
   letter-spacing: -2px;
   line-height: 1.1;
 }
@@ -872,8 +853,7 @@ section.one {
 }
 
 .five .inner .left img {
-  width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .five .inner .right {
@@ -986,7 +966,7 @@ section.one {
 
 footer {
   background-color: rgba(253, 223, 178, 0.144);
-  padding: 2% 5%;
+  padding: 5% 5% 3%;
   font-family: "Poppins", sans-serif;
   font-size: 0.9rem;
 }
